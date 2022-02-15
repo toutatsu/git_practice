@@ -14,6 +14,23 @@
 
 ---
 
+## Horizontal Rules
+```markdown
+- - -
+***
+*   *   *   *   *
+___
+_ _ _ _ _ _
+
+```
+- - -
+***
+*   *   *   *   *
+___
+_ _ _ _ _ _
+
+
+
 ## Source Code Block
 
 ````
@@ -56,9 +73,14 @@ print("Hello World!")
 ## Citation
 ```markdown
 > citation
+>>citation2
+>>>citation3
+>>>>>>>>>>>>>>>>>citation∞
 ```
-
 > citation
+>>citation2
+>>>citation3
+>>>>>>>>>>>>>>>>>citation∞
 
 ---
 
@@ -81,17 +103,25 @@ print("Hello World!")
 
 ## List
 ```markdown
-* list
+* list1
+    + list1-1
+- list2
 ```
-* list
+* list1
+    + list1-1
+- list2
 
 ---
 
 ## OrderedList
 ```markdown
-1. orderlist
+1. orderlist1
+    2. orderlist1-1  
+2. orderlist2 
 ```
-1. orderlist
+1. orderlist1
+    2. orderlist1-2  
+2. orderlist2 
 
 ---
 
@@ -132,8 +162,14 @@ puts 'Hello, World'
 
 ---
 
- - [ ] task1
- - [x] task2
+## CheckBox
+```
+- [ ] Checkbox
+- [x] Checked
+```
+
+- [ ] Checkbox
+- [x] Checked
 
 ---
 
@@ -145,6 +181,28 @@ puts 'Hello, World'
 | be         | be          | be           |
 | left       | right       | center       |
 | aligned    | aligned     | aligned      |
+
+---
+
+## Escape
+```
+\#Escape
+```
+\#Escape
+
+---
+
+##HTML
+```html
+<dl>
+  <dt>Name</dt>
+  <dd>Definition</dd>
+</dl> 
+```
+<dl>
+  <dt>Name</dt>
+  <dd>Definition</dd>
+</dl> 
 
 ---
 
